@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>homework II.T</title>
+		<link rel="stylesheet" type="text/css" href="css/homework.css">
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<li><a id="b1">HOME</a></li>
+					<li><a id="b2">MUSICAS</a></li>
+					<li><a id="b3">VIDEOS</a></li>
+					<li><a id="b4">ALBUNS</a></li>
+					<li><a id="b5">CONTATO</a></li>
+				</ul>
+			</nav>
+		</header>
+			<p id="banner">Red Rot Chili Peppers</p>
+		<article>
+			<h4 id="musicas" class="cc">MUSICAS</h4>
+		
+			<div class="texto">
+				<h4 class="tt">Scari Tssue </h4>
+				<img class="mm" src="img/img01.jpg" alt="imagem">
+				<audio class="aa" src="media/01.mp3" controls></audio>
+				
+			</div>
+			<div class="texto">
+					<h4 class="tt">Otherside</h4>
+				<img class="mm" src="img/img01.jpg" alt="imagem">
+				<audio class="aa" src="media/02.mp3" controls></audio>
+			
+			</div>
+			<div class="texto">
+				<h4 class="tt">Snow</h4>
+				<img class="mm" src="img/img01.jpg" alt="imagem">
+				<audio class="aa" src="media/03.mp3" controls></audio>
+				
+			</div>
+		</article>
+		<article>
+			<h4 id="videos" class="cc">VIDEOS</h4>
+			<div class="vv">
+				<video src="media/v01.mp4" controls></video>
+				<video src="media/v02.mp4" controls></video>
+				<video src="media/v04.mp4" controls></video>
+			</div>
+		</article>
+		<article>
+			<h4 id="albuns" class="cc">ALBUNS</h4>
+			<div class="al">
+				<a href="https://www.vagalume.com.br/red-hot-chili-peppers/the-getaway.html" target=_blank><img src="img/01.jpg" alt="imagem" class="aula02"></a>
+				<a href="https://www.vagalume.com.br/red-hot-chili-peppers/blood-sugar-sex-magik-traducao.html" target=_blank><img src="img/02.jpg" alt="imagem" class="aula02"></a>
+				<a href="https://www.vagalume.com.br/red-hot-chili-peppers/stadium-arcadium.html" target=_blank><img src="img/03.jpg" alt="imagem" class="aula02"></a>
+			</div>
+		</article>
+		<article>
+			<h4 id="contato" class="cc">CONTATO</h4>
+		</article>
+		<footer>Todos os direitos reservados|2017</footer>
+		<video class="video" src="media/back.mp4" autoplay loop></video>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script type="text/javascript">
+			//Realiza o clique B1
+			$("#b1").click(function(){
+				$("html,body").animate(
+				{scrollTop:$('#banner').offset().top}, 2000
+			  ); return false;
+			});//Fecha o click B1
+
+			$("#b2").click(function(){
+				$("html,body").animate(
+				{scrollTop:$('#musicas').offset().top}, 2000
+			  ); return false;
+			});
+
+			$("#b3").click(function(){
+				$("html,body").animate(
+				{scrollTop:$('#videos').offset().top}, 2000
+			  ); return false;
+			});
+
+			$("#b4").click(function(){
+				$("html,body").animate(
+				{scrollTop:$('#albuns').offset().top}, 2000
+			  ); return false;
+			});
+
+			$("#b1").click(function(){
+				$("html,body").animate(
+				{scrollTop:$('#contatos').offset().top}, 2000
+			  ); return false;
+			});
+			
+
+
+		</script>
+	</body>
+</html>

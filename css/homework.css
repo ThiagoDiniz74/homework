@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+body{
+	margin: 0; padding: 0;
+}
+video{
+	width: 500;
+	height: 250px;
+	position: relative;
+	padding-left: 50px;
+	padding-top: 20px;
+}
+img{
+	width: 400px;
+	height: 200px;
+	border: 2px: solid #fff;
+	margin: 5px;
+	padding-left: 3%;
+	padding-top: 3%;
+	position: relative;
+	left: 2%;
+}
+header{
+	width: 100%;
+	height: 80px;
+	background: rgba(160, 8, 8, 1);
+	position: fixed;
+	top: 0px;
+	z-index: 1000;
+}
+p{
+	font-family: 'Anton', cursive;
+	font-size: 200px;
+	text-align: center;
+	color: orange;
+}
+article{
+	width: 100%;
+	height: 400px; 
+	background: rgba(160, 8, 8, 0.5);
+	font-family: 'Anton';
+ 
+}
+footer{
+	width: 100%;
+	height: 90px;
+	
+}
+.video{
+		position: fixed;
+		width:auto;
+		height: auto;
+		background-size: cover;
+		/*background: url();*/
+		z-index: -1000;
+		right:0px;
+		bottom:0px;
+		min-width: 100%;
+		min-height: 100%;
+}
+li{
+	display: inline;
+	position: relative;
+	top: 4px;
+	padding: 30px;
+	margin: 90px;
+	font-family: 'Anton', cursive;
+	font-size: 0.70cm;
+	color: orange;
+}
+li:hover{
+	cursor:pointer;
+}
+a{text-decoration: none; color: orange;}
+a:hover{ 
+	color: #fff;
+	
+}
+.banner{
+	font-size: 500%;
+	color: white;
+}
+.images{
+			width: 22%;
+			height: auto;
+			margin-left: 10px;	
+			position:relative;
+			left:25%;
+}
+.texto{
+	width: 20%;
+	height: 200px;
+	/*border: 2px solid #fff;*/
+	position: relative;
+	padding-left: 25px;	
+
+}
+.mm{
+	width: 298px;
+	height: 150px;
+	position: relative;
+	bottom: 30px;
+}
+.aa{
+	position: relative;
+	bottom: 40px;
+	left: 6%;
+}
+div{
+	display: inline-block;
+	position: relative;
+	padding: 50px;
+	bottom: 60px;
+	left: 15%;
+	margin-left: 50px;
+	
+}
+.tt{
+	position: relative;
+	padding-left: 33%;
+	color: white;
+	text-align: none;
+}
+.cc{
+	font-size: 250%;
+	position: relative;
+	left: 50%;
+	font-family: 'Anton';
+	color: orange;
+}
+.vv{
+	position: relative;
+	left: 10%;
+	margin-left: 100px;
+	bottom: 50px;
+}
+.al{
+	width: 1400px;
+	height: 300px;
+	/*border: 2px solid #fff;*/
+	margin:0 auto;
+
+}
+.aula02{
+	padding: none;
+	margin: none;
+
+}
